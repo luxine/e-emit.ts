@@ -1,11 +1,13 @@
 {
-    "compilerOptions": {
-      "target": "ESNext",
-      "module": "ESNext",
-      "declaration": true,
-      "outDir": "dist",
-      "strict": true
-    },
-    "include": ["src/**/*.ts"],
-    "exclude": ["node_modules", "dist"]
-  }
+  "compilerOptions": {
+    "target": "ESNext",             // 使用 ESNext，确保支持最新的 JavaScript 特性
+    "module": "ESNext",             // 使用 ES 模块（生成 .mjs 文件）
+    "moduleResolution": "Node",     // 使用 Node 模块解析方式
+    "outDir": "dist",               // 输出目录
+    "esModuleInterop": true,        // 确保与 CommonJS 模块兼容
+    "skipLibCheck": true,           // 跳过库文件检查
+    "strict": true                  // 启用严格模式，增强类型检查
+  },
+  "include": ["src/**/*"],           // 包含源代码目录
+  "exclude": ["node_modules"]        // 排除不需要编译的目录
+}

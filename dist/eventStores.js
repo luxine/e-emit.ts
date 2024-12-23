@@ -12,7 +12,7 @@ class EventStore {
     static createInstance(eventStoreID, option) {
         let eventStoreSign = eventStoreID.slice(0, eventStoreID.length - 1);
         if (this.eventIDArray.includes(eventStoreSign)) {
-            console.error(`EventStoreError: 标识为${eventStoreID}的仓库重复创建`);
+            console.error(`EventStoreError: 标识为${eventStoreSign}的仓库重复创建`);
             return null;
         }
         this.eventIDArray.push(eventStoreSign);
