@@ -1,5 +1,5 @@
 {
-  "name": "emitter.ts",
+  "name": "eventemitter.ts",
   "version": "1.0.3",
   "main": "index.ts",
   "module": "module",
