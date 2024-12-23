@@ -1,8 +1,8 @@
 {
   "name": "e-emit.ts",
   "version": "1.0.7",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "main": "index.ts",
+  "module": "module",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
