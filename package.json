@@ -1,5 +1,5 @@
 {
-  "name": "e-emit",
+  "name": "e-emit.ts",
   "version": "1.0.5",
   "main": "index.ts",
   "module": "module",
